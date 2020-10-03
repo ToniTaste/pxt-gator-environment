@@ -17,13 +17,19 @@
  * Functions to operate the gatorEnvironment sensor
  */
 
- enum measurementType{
+enum measurementType{
+     //% block="DegreesC" 
 	 degreesC=1,
+     //% block="degreesF" 
 	 degreesF=2,
+     //% block="humidity" 
 	 humidity=3,
+     //% block="pressure" 
 	 pressure=4,
+     //% block="eCO2" 
 	 eCO2=5,
-	 TVOC=6,
+     //% block="TVOC" 
+	 TVOC=6
  } 
  
 //% color=#f44242 icon="\uf0c2"
