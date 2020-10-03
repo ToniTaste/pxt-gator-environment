@@ -1,0 +1,10 @@
+{
+    "gatorEnvironment.beginEnvironment|block": "initialisiere den gator:Environment Sensor",
+    "gatorEnvironment.getMeasurement|block": "erhalte %measurementType | Wert",
+    "measurementType.DegreesC|block": "Temperatur in °C",
+    "measurementType.DegreesF|block": "Temperatur in °F",
+    "measurementType.humidity|block": "Feuchtigkeit",
+    "measurementType.pressure|block": "Druck (Pa)",
+    "measurementType.eCO2|block": "eCO2 (ppm)",
+    "measurementType.TVOC|block": "TVOC (ppb)"
+}
