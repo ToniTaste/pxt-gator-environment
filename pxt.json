@@ -1,6 +1,6 @@
 {
-    "name": "gatorEnvironment",
-    "version": "1.0.13",
+    "name":"pxt-gator-environment",
+    "version": "1.0.15",
     "description": "SparkFun gator:Particle Particle Sensor",
     "license": "MIT",
     "dependencies": {
@@ -13,7 +13,8 @@
         "SparkFunEnvironment.h",
         "SparkFunEnvironment.cpp",
         "shims.d.ts",
-        "enums.d.ts"
+        "enums.d.ts",
+        "_locales/de/pxt-gator-environment-strings.json"
     ],
     "testFiles": [],
     "public": true
