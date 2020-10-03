@@ -1,5 +1,5 @@
 {
-    "name":"pxt-gator-environment",
+    "name": "pxt-gator-environment",
     "version": "1.0.15",
     "description": "SparkFun gator:Particle Particle Sensor",
     "license": "MIT",
@@ -17,5 +17,9 @@
         "_locales/de/pxt-gator-environment-strings.json"
     ],
     "testFiles": [],
-    "public": true
+    "public": true,
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "tsprj"
 }

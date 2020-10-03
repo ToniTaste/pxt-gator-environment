@@ -18,7 +18,7 @@
  */
 
 enum measurementType{
-     //% block="DegreesC" 
+     //% block="degreesC" 
 	 degreesC=1,
      //% block="degreesF" 
 	 degreesF=2,
