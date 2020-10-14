@@ -477,7 +477,7 @@ float environment::readFloatPressure( void )
 {
 
 	// Returns pressure in Pa as unsigned 32 bit integer in Q24.8 format (24 integer bits and 8 fractional bits).
-	// Output value of “24674867” represents 24674867/256 = 96386.2 Pa = 963.862 hPa
+	// Output value of "24674867" represents 24674867/256 = 96386.2 Pa = 963.862 hPa
     uint8_t buffer[3];
 	readRegisterRegion(BME280_ADDRESS, &buffer[0], BME280_PRESSURE_MSB_REG, 3);
     int32_t adc_P = ((uint32_t)buffer[0] << 12) | ((uint32_t)buffer[1] << 4) | ((buffer[2] >> 4) & 0x0F);
@@ -544,7 +544,7 @@ float environment::readFloatHumidity( void )
 {
 	
 	// Returns humidity in %RH as unsigned 32 bit integer in Q22. 10 format (22 integer and 10 fractional bits).
-	// Output value of “47445” represents 47445/1024 = 46. 333 %RH
+	// Output value of "47445" represents 47445/1024 = 46. 333 %RH
     uint8_t buffer[2];
 	readRegisterRegion(BME280_ADDRESS, buffer, BME280_HUMIDITY_MSB_REG, 2);
     int32_t adc_H = ((uint32_t)buffer[0] << 8) | ((uint32_t)buffer[1]);
@@ -569,7 +569,7 @@ float environment::readFloatHumidity( void )
 
 float environment::readTempC( void )
 {
-	// Returns temperature in DegC, resolution is 0.01 DegC. Output value of “5123” equals 51.23 DegC.
+	// Returns temperature in DegC, resolution is 0.01 DegC. Output value of "5123" equals 51.23 DegC.
 	// t_fine carries fine temperature as global value
 
 	//get the reading (adc_T);
