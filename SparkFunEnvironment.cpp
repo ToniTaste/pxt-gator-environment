@@ -78,7 +78,7 @@ static const char BME280_TEMPERATURE_XLSB_REG=	0xFC; //Temperature XLSB
 static const char BME280_HUMIDITY_MSB_REG	=	0xFD; //Humidity MSB
 static const char BME280_HUMIDITY_LSB_REG	=	0xFE; //Humidity LSB
 
-static const char CCS811_ADDRESS			=		0xB6;
+static const char CCS811_ADDRESS			=		0x5A;
 static const char CCS811_STATUS= 0x00;
 static const char CCS811_MEAS_MODE =0x01;
 static const char CCS811_ALG_RESULT_DATA =0x02;
